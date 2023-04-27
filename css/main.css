@@ -1,0 +1,90 @@
+header{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+}
+
+/* #placeholder{
+   margin: auto; fixed by adding text-align:center; to header
+}  */
+#placeholder{
+    margin-top: 20px;
+}
+.container{
+    border: 2px solid lightgrey;
+    padding: 10px 30px 50px;
+    width: 33.33vh;
+    height:50%;
+    margin: auto; 
+    
+}
+
+#form-fields{
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+}
+
+#forgotpass{
+    margin-left: 65%;
+    text-decoration: none;
+}
+#form-fields-button{
+    width: 100%;
+    margin: 10px 0;
+    background-color: #f7c548;
+    height: 30px;
+}
+
+#create-account-info{
+    display: flex;
+    /* justify-content: center; don't need*/
+    flex-direction: column;
+    align-items: center;
+}
+#create-acc-button{
+    width: 17%;
+    height: 30px;
+}
+
+#copyright{
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+footer li{
+    display: inline;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h5{
+
+    display: flex;
+    flex-direction: row;
+}
+
+h5:before, h5:after{
+    content: "I tried really hard";
+    flex: 1 1;
+    border-bottom: 1px solid grey;
+    margin: auto;
+}
+
+h5:before{
+    margin-right: 10px;
+}
+
+h5:after{
+    margin-left: 10px;
+}
